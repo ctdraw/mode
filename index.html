@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Aplicando o fundo e centralização */
+      body {
+        background-color: #000;
+        color: #e0e0e0;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        text-align: center;
+      }
+
+      /* Container central */
+      .container {
+        max-width: 720px;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      /* Imagem com leve opacidade */
+      .container img {
+        width: 150px;
+        opacity: 0.85;
+        transition: opacity 0.3s;
+      }
+      .container img:hover {
+        opacity: 1;
+      }
+
+      /* Texto de agradecimento */
+      .container p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin: 1em 0;
+      }
+      
+      /* Estilos específicos para frases finais */
+      .highlight {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #ffdd57;
+      }
+
+      .farewell {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 2em;
+        color: #ff6347;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./icon.png" alt="Logo ModeScanlator" />
+      <p>
+        Muito obrigado àqueles que acompanharam a nossa jornada até aqui.
+        Sempre fizemos nossas traduções da melhor maneira que pudemos, então
+        esperamos de coração que tenham tido bons momentos lendo nossas obras.
+      </p>
+      <p class="highlight">
+        Que sejam felizes, bebam água e lembrem-se sempre: vivam com honra e valor.
+      </p>
+      <p class="farewell">A equipe Mode Scanlator agradece por todo apoio. Adeus, meus caros. \o/</p>
+    </div>
+  </body>
+</html>
